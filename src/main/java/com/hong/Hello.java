@@ -4,8 +4,13 @@ public class Hello{
     public static void main(String[] args) {
 //        System.out.println("Hello!!");
 //        new Person().Hello();  //呼叫Person類別裡的Hello功能
-        Person p = new Person();
+        Person p = new Person(/*ctrl+p*/"hong", 66.5f, 1.7f);
         p.Hello();
+        /*p.weight = 66.5f;
+        p.height = 1.7f;*/
+        System.out.println(p.bmi());
+
+/*
 //        "數值"基本資料型態:int,short,long,float,double,byte
         int age = 19;
         Integer age2 = 19;
@@ -17,5 +22,6 @@ public class Hello{
         boolean adult = true;
         boolean enroll = false;
         String name = "Tom";
+*/
     }
         }
