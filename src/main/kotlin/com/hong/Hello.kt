@@ -6,6 +6,10 @@ fun main() {
 //儲存物件可用val、var來定義，「val 代表定義完後不能再改變他的值」
     val h = Human(weight = 66.5f, height = 1.7f) //用val建構Human物件
     println(h.bmi())
+    val score = 88
+    println(score > 60)
+    val c : Char = 'A' //Char 在kotlin中不屬於整數數值型態會無法跟數值做比較
+    println(c.toInt() > 60) //使用Char中的toInt轉換，就可跟數值比較
 /*
 //    一開始定義變數時，要用val(不可變動)或var(未來可變動)
 //    val age = 19; //可不指定資料型態。如要指定 val age(名稱) : Int(型態) =  19(值);

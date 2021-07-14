@@ -9,7 +9,10 @@ public class Hello{
         /*p.weight = 66.5f;
         p.height = 1.7f;*/
         System.out.println(p.bmi());
-
+        int score = 88;
+        System.out.println(score < 80 || score >90);//字串比較 && || > >= < <=
+        char c = 'A';//unicode編碼
+        System.out.println(c > 'a');
 /*
 //        "數值"基本資料型態:int,short,long,float,double,byte
         int age = 19;
